@@ -1,0 +1,56 @@
+.center-text {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif; /* You can list multiple fonts as fallbacks */
+
+    background-color: rgb(45, 140, 172); /* You can use a color name, hex, rgb, or hsl value */
+  }
+
+
+ 
+  
+
+  header {
+    background-color: #333;  /* Green background */
+    color: white;  /* White text */
+    text-align: center;  /* Center the content */
+    background-color: #333;  /* Dark background color */
+    color: white;  /* White text color */
+    text-align: center;  /* Center-align the text */
+    padding: 30px;  /* Add padding for space inside the footer */
+    width: 100%;  /* Ensure it spans the entire width */
+  }
+  
+  header nav ul {
+    list-style-type: none;  /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    display: inline;  /* Display list items in a row */
+    margin: 0 15px;  /* Add some space between links */
+  }
+  
+  header nav ul li a {
+    color: white;  /* Make links white */
+    text-decoration: none;  /* Remove underline from links */
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;  /* Add underline on hover */
+  }
+  
+  footer {
+    background-color: #333;  /* Dark background color */
+    color: white;  /* White text color */
+    text-align: center;  /* Center-align the text */
+    padding: 30px;  /* Add padding for space inside the footer */
+    position: fixed;  /* Fix the footer at the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%;  /* Ensure it spans the entire width */
+  }
+  
