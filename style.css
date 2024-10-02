@@ -22,25 +22,50 @@ ul {
 
 li {
     text-align: center;
-    background-image: url("https://www.w3schools.com/howto/img_snow_wide.jpg");
+    overflow: hidden;
+    display: block;
+    margin-bottom: 10px;
     background-size: cover;
+    transition: transform 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1.1);
+    overflow: hidden;    
 }
 
 a {
+    color: white;
     font-size: 1.5em;
     padding: 10vh 0;
     text-decoration: none;
-    color: inherit;
     display: block;
     transition: transform 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    position: relative;
+}
 
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 a:hover {
-    transform: translateX(10px);
+    transform: scale(1.1);
+    overflow: hidden;    
 }
 
-#minecraft li {
-    background-image: url("https://www.w3schools.com/howto/img_snow_wide.jpg");
-    background-size: cover;
+#minecraft {
+    background-image: url("assets/minecraft.jpg");
+}
+
+#mario {
+    background-image: url("assets/mario.jpg");
+    background-position: bottom;
+}
+
+#smash {
+    background-image: url("assets/smash.jpg");
 }
