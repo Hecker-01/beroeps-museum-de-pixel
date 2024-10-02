@@ -18,25 +18,17 @@ ul {
     padding: 0;
     justify-content: center;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 li {
     text-align: center;
     overflow: hidden;
-    display: block;
-    margin-bottom: 10px;
-    background-size: cover;
-    transition: transform 0.3s ease;
-}
-
-li:hover {
-    transform: scale(1.1);
-    overflow: hidden;    
 }
 
 a {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.7em;
     padding: 10vh 0;
     text-decoration: none;
     display: block;
@@ -45,11 +37,7 @@ a {
     background-position: center;
     overflow: hidden;
     transition: transform 0.3s ease;
-    position: relative;
-}
-
-.overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 a:hover {
@@ -57,15 +45,27 @@ a:hover {
     overflow: hidden;    
 }
 
+li div:hover {
+    transform: scale(1.1);
+    overflow: hidden;    
+}
+
 #minecraft {
     background-image: url("assets/minecraft.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
 }
 
 #mario {
     background-image: url("assets/mario.jpg");
+    background-size: cover;
     background-position: bottom;
-}
+    transition: transform 0.3s ease;}
 
 #smash {
     background-image: url("assets/smash.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
 }
