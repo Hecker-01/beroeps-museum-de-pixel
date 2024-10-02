@@ -1,0 +1,39 @@
+ body {
+    background-color: rgb(77, 134, 188);
+ }
+  body {
+    text-align: center;
+  }
+
+  h1 {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(85, 82, 82);
+  }
+img {
+    height: 300px;
+    width: 600px;
+}
+button{
+    background-color:rgb(0, 120, 212);
+  }
+  
+  button:hover{background-color:rgb(101, 203, 122);}
+  
+  button:focus{background-color: blue;}
+  
+  a {
+    color: rgb(0, 251, 54);
+  }
+  
+  a.button{
+    color:green;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:active {
+    color: rgb(27, 26, 117);
+  }
