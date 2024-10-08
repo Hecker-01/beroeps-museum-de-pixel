@@ -1,0 +1,29 @@
+header h1 {
+    font-family: sans-serif;
+    font-weight: unset;
+    text-align: center;
+    color: #fff;
+}
+
+header nav ul {
+    display: flex;
+    color: #fff;
+    list-style: none;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+header nav ul li a {
+    font-family: sans-serif;
+    font-size: 1.7em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+}
+
+header nav ul li a:hover {
+    color: #cccccc;
+}

@@ -2,14 +2,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #222222;
     margin: 0;
     padding: 0;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #fff;
     margin: 50px;
 }
 
@@ -27,45 +27,40 @@ li {
 }
 
 a {
-    color: white;
+    color: #fff;
     font-size: 1.7em;
-    padding: 10vh 0;
+    padding: 11vh 0;
     text-decoration: none;
     display: block;
     transition: transform 0.3s ease;
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    transition: transform 0.3s ease;
     background-color: rgba(0, 0, 0, 0.3);
 }
-
 a:hover {
     transform: scale(1.1);
-    overflow: hidden;    
 }
 
 li div:hover {
     transform: scale(1.1);
-    overflow: hidden;    
+}
+
+li div {
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
 }
 
 #minecraft {
-    background-image: url("assets/minecraft.jpg");
-    background-size: cover;
-    background-position: center;
-    transition: transform 0.3s ease;
+    background-image: url("../assets/minecraft.jpg");
 }
 
 #mario {
-    background-image: url("assets/mario.jpg");
-    background-size: cover;
+    background-image: url("../assets/mario.jpg");
     background-position: bottom;
-    transition: transform 0.3s ease;}
+}
 
 #smash {
-    background-image: url("assets/smash.jpg");
-    background-size: cover;
-    background-position: center;
-    transition: transform 0.3s ease;
+    background-image: url("../assets/smash.jpg");
 }
