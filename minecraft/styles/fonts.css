@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: "Minecraft Ten";
+  font-family: "MinecraftTen";
   src: url("../assets/fonts/MinecraftTen.woff") format("woff"),
     url("../assets/fonts/MinecraftTen.ttf") format("truetype");
   font-weight: normal;
