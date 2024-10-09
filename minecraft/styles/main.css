@@ -1,30 +1,3 @@
-@font-face {
-  font-family: "MinecraftFive";
-  src: url("../assets/fonts/MinecraftFive.woff") format("woff"),
-    url("../assets/fonts/MinecraftFive.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: "MinecraftSeven";
-  src: url("../assets/fonts/MinecraftSeven.woff") format("woff"),
-    url("../assets/fonts/MinecraftSeven.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  text-rendering: optimizeLegibility;
-}
-
-@font-face {
-  font-family: "Minecraft Ten";
-  src: url("../assets/fonts/MinecraftTen.woff") format("woff"),
-    url("../assets/fonts/MinecraftTen.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  text-rendering: optimizeLegibility;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -93,7 +66,7 @@ section {
 }
 
 section h2 {
-    font-family: "MinecraftSeven", sans-serif;
+  font-family: "MinecraftSeven", sans-serif;
   font-size: 1.5rem;
   margin-bottom: 10px;
   color: #aed581;
