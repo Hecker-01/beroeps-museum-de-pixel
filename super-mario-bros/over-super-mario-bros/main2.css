@@ -1,0 +1,41 @@
+body {
+    background-image: url("images/super-mario-bros-7f3c67482caa4f34b39cda5c19efd63d.jpg");
+  }
+  body {
+    background-size: 100% 1100px;
+  }
+
+  .textoversupermario {
+    margin: auto;
+    width: 325px;
+    padding: 20px;
+    background-color: rgb(88, 129, 212);
+    border-radius: 10px;
+    border: solid 5px black;
+  
+  }
+  .informatie {
+    margin: left;
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(68, 68, 206);
+    border-radius: 10px;
+    border: solid 5px rgb(0, 0, 0);
+    
+
+  }
+  .informatie2 {
+    margin: right;
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(68, 68, 206);
+    border-radius: 10px;
+    border: solid 5px rgb(0, 0, 0);
+    
+  }
+
+  img:hover {
+  
+  cursor: pointer;
+  
+  }

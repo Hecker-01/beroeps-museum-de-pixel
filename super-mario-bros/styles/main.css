@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(51, 106, 158);
+  background-color: rgb(65, 142, 193);
 }
 body {
   text-align: center;
@@ -10,4 +16,13 @@ h1 {
 img {
   height: 300px;
   width: 600px;
+}
+.supermariobros {
+  margin: auto;
+  width: 100%;
+  padding: 40px;
+  background-color: rgb(51, 91, 178);
+  border-radius: 0 0 10px 10px;
+  box-shadow: color(srgb 0 0 0 0) 10px;
+  line-height: 100%;
 }
