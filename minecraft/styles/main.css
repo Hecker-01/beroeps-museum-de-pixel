@@ -1,70 +1,127 @@
-/* Reset some default browser styles */
+@font-face {
+  font-family: "MinecraftFive";
+  src: url("../assets/fonts/MinecraftFive.woff") format("woff"),
+    url("../assets/fonts/MinecraftFive.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "MinecraftSeven";
+  src: url("../assets/fonts/MinecraftSeven.woff") format("woff"),
+    url("../assets/fonts/MinecraftSeven.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Minecraft Ten";
+  src: url("../assets/fonts/MinecraftTen.woff") format("woff"),
+    url("../assets/fonts/MinecraftTen.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Set a base font size and family */
+main {
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-position: 0 10%;
+}
+
+.content {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    color: #d8d8d8;
-    background-color: #222;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  line-height: 1.6;
 }
 
-/* Container class for centering content */
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+header {
+  background-color: #1f1f1f;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 4px solid #111;
 }
 
-/* Basic styling for headers */
-h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 20px;
-    color: #fff;
+nav {
+  margin-top: 20px;
+  text-align: center;
 }
 
-/* Basic styling for paragraphs */
-p {
-    margin-bottom: 20px;
+nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-/* Basic styling for links */
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #81c784;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "MinecraftFive", sans-serif;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #1e1e1e;
+  border-top: 4px solid #333;
+  border-bottom: 4px solid #111;
+}
+
+section h2 {
+    font-family: "MinecraftSeven", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #aed581;
+}
+
+section p {
+  font-size: 1rem;
+  color: #b0b0b0;
+}
+
+footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 4px solid #333;
+}
+
+footer p {
+  color: #81c784;
+  font-size: 1rem;
+  font-family: "MinecraftTen", sans-serif;
+}
+
 a {
-    color: #d8d8d8;
-    text-decoration: none;
+  text-decoration: none;
+  color: #81c784;
 }
 
 a:hover {
-    text-decoration: underline;
-}
-
-/* Basic styling for buttons */
-button {
-    background-color: #3498db;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #2980b9;
-}
-
-/* Flexbox utility classes */
-.flex {
-    display: flex;
-}
-
-.flex-center {
-    justify-content: center;
-    align-items: center;
-}
-
-.flex-column {
-    flex-direction: column;
+  text-decoration: underline;
 }
