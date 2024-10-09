@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(65, 142, 193);
+  background-color: rgb(51, 91, 178);
 }
 body {
   text-align: center;
@@ -14,9 +14,10 @@ h1 {
   -webkit-text-stroke-width: 2px;
 }
 img {
-  margin: left;
-  height: 300px;
-  width: 600px;
+  height: 920px;
+  width: 2020px;
+  box-sizing: border-box;
+  padding: 0;
 }
 .supermariobros {
   margin: auto;
@@ -27,9 +28,26 @@ img {
   box-shadow: color(srgb 0 0 0 0) 10px;
   line-height: 100%;
 }
+
 i {
   top: 10px;
   left: 10px;
   font-size: xx-large;
   position: absolute;
+}
+body {
+font-family: 'Press Start 2P', cursive;
+}
+nav ul {
+  display: flex;
+  text-align: center;
+}
+nav {
+  text-align: center;
+}
+ li{
+  margin: 20px;
+ }
+ .textcenter {
+  text-align: center;
 }
