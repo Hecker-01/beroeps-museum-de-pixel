@@ -27,3 +27,9 @@ img {
   box-shadow: color(srgb 0 0 0 0) 10px;
   line-height: 100%;
 }
+i {
+  top: 10px;
+  left: 10px;
+  font-size: xx-large;
+  position: absolute;
+}

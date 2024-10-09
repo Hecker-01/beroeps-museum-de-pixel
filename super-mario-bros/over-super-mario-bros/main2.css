@@ -1,41 +1,64 @@
 body {
-    background-image: url("images/super-mario-bros-7f3c67482caa4f34b39cda5c19efd63d.jpg");
-  }
-  body {
-    background-size: 100% 1100px;
-  }
+  background-image: url("images/super-mario-bros-7f3c67482caa4f34b39cda5c19efd63d.jpg");
+}
 
-  .textoversupermario {
-    margin: auto;
-    width: 325px;
-    padding: 20px;
-    background-color: rgb(88, 129, 212);
-    border-radius: 10px;
-    border: solid 5px black;
-  
-  }
-  .informatie {
-    margin: left;
-    width: 300px;
-    padding: 10px;
-    background-color: rgb(68, 68, 206);
-    border-radius: 10px;
-    border: solid 5px rgb(0, 0, 0);
-    
+body {
+  background-size: 100% 1100px;
+}
 
-  }
-  .informatie2 {
-    margin: right;
-    width: 300px;
-    padding: 10px;
-    background-color: rgb(68, 68, 206);
-    border-radius: 10px;
-    border: solid 5px rgb(0, 0, 0);
-    
-  }
+.textoversupermario {
+  margin: auto;
+  width: 325px;
+  padding: 20px;
+  background-color: rgb(88, 129, 212);
+  border-radius: 10px;
+  border: solid 5px black;
+  margin-bottom: 10px;
 
-  img:hover {
-  
+}
+
+.informatie {
+  margin: 170px;
+  width: 300px;
+  padding: 10px;
+  background-color: rgb(68, 68, 206);
+  border-radius: 10px;
+  border: solid 5px rgb(0, 0, 0);
+  position: relative;
+  float: left;
+}
+
+.informatie2 {
+  margin: 170px;
+  width: 300px;
+  padding: 10px;
+  background-color: rgb(68, 68, 206);
+  border-radius: 10px;
+  border: solid 5px rgb(0, 0, 0);
+  position: relative;
+  float: left;
+}
+.informatie3 {
+  margin: 170px;
+  width: 300px;
+  padding: 10px;
+  background-color: rgb(68, 68, 206);
+  border-radius: 10px;
+  border: solid 5px rgb(0, 0, 0);
+  position: relative;
+  float: left;
+}
+
+
+img:hover {
+
   cursor: pointer;
-  
-  }
+
+}
+
+i {
+  top: 10px;
+  left: 10px;
+  font-size: xx-large;
+  position: absolute;
+}
