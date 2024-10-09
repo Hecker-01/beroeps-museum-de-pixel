@@ -10,7 +10,13 @@ body {
 h1 {
     text-align: center;
     color: #fff;
-    margin: 50px;
+    margin: 25px;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+    margin: 25px;
 }
 
 ul {
