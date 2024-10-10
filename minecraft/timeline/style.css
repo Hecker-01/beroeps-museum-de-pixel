@@ -7,7 +7,6 @@
 main {
   background-image: url("../assets/background.png");
   background-size: cover;
-  background-position: 0 10%;
 }
 
 .content {
@@ -69,14 +68,47 @@ section h1 {
   font-family: "MinecraftTen", sans-serif;
   font-size: 2rem;
   margin-bottom: 10px;
-  color: #aed581;
+  color: #81c784;
 }
 
 section h2 {
   font-family: "MinecraftSeven", sans-serif;
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #aed581;
+  color: #81c784;
+}
+
+.timeline {
+  display: flex;
+  padding-top: 10px;
+}
+
+.timeline-items {
+  display: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.timeline-line {
+  width: 0px;
+  background-color: #00000000;
+  border: #fff dashed 1px;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.timeline-date {
+  font-family: "MinecraftFive", sans-serif;
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
 }
 
 section p {
