@@ -1,78 +1,73 @@
 .center-text {
-    text-align: center;
-  }
-  
-  body {
-    font-family: "Arial", sans-serif; /* You can list multiple fonts as fallbacks */
+  text-align: center;
+}
 
-    background-color: rgb(45, 140, 172); /* You can use a color name, hex, rgb, or hsl value */
-  }
+body {
+  font-family: "Arial", sans-serif;
 
+  background-color: rgb(45, 140, 172);
+}
 
-  body {
-   background-image: url("../assets/Battlefield1.jpeg");
-    background-size: cover; /* Makes sure the image covers the entire background */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-      min-height: 100vh; 
-      margin: 0; }
+body {
+  background-image: url("../assets/Battlefield1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+}
 
-      h1 {
-        text-align: center;
-    }
+h1 {
+  text-align: center;
+}
 li {
   font-size: 24px;
 }
-.logo{
+.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
   width: 300px;
-  
 }
-header{
+header {
   width: 100vw;
 }
 
 header {
-  background-color: #333; /* Dark background for the header */
-  color: white; /* White text color */
-  display: flex; /* Flexbox for aligning items */
-  justify-content: space-between; /* Space between logo and navigation */
-  align-items: center; /* Vertically center the content */
-  padding: 20px 40px; /* Padding around the content */
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
 }
 
-
-.container{
+.container {
   width: 100vw;
 }
-/* Footer Styles */
 footer {
-  background-color: #333; /* Dark background color */
-  color: #fff; /* White text color */
-  text-align: center; /* Center the text */
-  padding: 20px 0; /* Add padding on top and bottom */
-  position: relative; /* Keeps it in the normal flow of the page */
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
 
-/* Links inside Footer */
 footer a {
-  color: #f0f0f0; /* Light color for links */
-  text-decoration: none; /* No underline by default */
-  margin: 0 10px; /* Space between links */
+  color: #f0f0f0;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 footer a:hover {
-  color: #ffcc00; /* Change color on hover */
-  text-decoration: underline; /* Add underline on hover */
+  color: #ffcc00;
+  text-decoration: underline;
 }
 
-/* Footer Text */
 footer p {
-  font-size: 14px; /* Slightly smaller text */
+  font-size: 14px;
   margin: 0;
 }
