@@ -24,18 +24,10 @@ body {
 }
 
 header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   background-color: #1f1f1f;
   padding: 30px;
   text-align: center;
   border-bottom: 4px solid #111;
-  position: relative;
-  overflow: hidden;
-}
-
-header .backToStart {
 }
 
 nav {
