@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  background-image: url("../assets/");
+  background-image: url("../assets/battlefield.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,17 +21,17 @@ li {
 }
 .logo {
   display: block;
-  margin-left: 850px;
+  margin-left: 910px;
   margin-right: auto;
   margin-top: -100px;
-  width: 300px;
+  width: 350px;
 }
 header {
   width: 100vw;
 }
 
 header {
-  background-color: #08559d;
+  background-color: #d81310;
   color: white;
   display: flex;
   justify-content: center;
@@ -81,16 +81,7 @@ li a {
 li a:hover {
   background-color: #111;
 }
-.informatie {
-  margin: 540px;
-  margin-top: -140px;
-  width: 40px;
-  height: 10px;
-  padding: 45px;
-  background-color: rgb(68, 68, 206);
-  border-radius: 10px;
-  border: solid 5px rgb(0, 0, 0);
-  position: relative;
-  float: left;
-  font-size: 10px;
+
+.nintendo-logo{
+ align-items: right;
 }
