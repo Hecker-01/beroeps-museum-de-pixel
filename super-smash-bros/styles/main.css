@@ -1,15 +1,11 @@
-.center-text {
-  text-align: center;
-}
-
 body {
   font-family: "Arial", sans-serif;
 
-  background-color: rgb(45, 140, 172);
+  background-color: rgb(0, 0, 0);
 }
 
 body {
-  background-image: url("../assets/Battlefield1.jpeg");
+  background-image: url("../assets/");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,17 +13,17 @@ body {
   margin: 0;
 }
 
-h1 {
-  text-align: center;
-}
+
 li {
-  font-size: 24px;
+  font-size: 10px;
+  flex-direction: row;
+  text-align: center;
 }
 .logo {
   display: block;
-  margin-left: auto;
+  margin-left: 850px;
   margin-right: auto;
-  margin-top: 0px;
+  margin-top: -100px;
   width: 300px;
 }
 header {
@@ -35,39 +31,66 @@ header {
 }
 
 header {
-  background-color: #333;
+  background-color: #08559d;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 20px 40px;
+  padding: 10px 20px;
+  flex-direction: row;
 }
+nav ul{
+  flex-direction: row;
+  
+}
+
 
 .container {
   width: 100vw;
 }
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
 
-footer a {
-  color: #f0f0f0;
-  text-decoration: none;
-  margin: 0 10px;
+i {
+  top: 10px;
+  left: 10px;
+  font-size: xx-large;
+  position: absolute;
 }
-
-footer a:hover {
-  color: #ffcc00;
-  text-decoration: underline;
+body {
+  font-family: "Press Start 2P", system-ui;
 }
-
-footer p {
-  font-size: 14px;
+ul {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #750f0f;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.informatie {
+  margin: 540px;
+  margin-top: -140px;
+  width: 40px;
+  height: 10px;
+  padding: 45px;
+  background-color: rgb(68, 68, 206);
+  border-radius: 10px;
+  border: solid 5px rgb(0, 0, 0);
+  position: relative;
+  float: left;
+  font-size: 10px;
 }
