@@ -15,8 +15,7 @@ h1 {
   -webkit-text-stroke-width: 2px;
 }
 img {
-  height: 920px;
-  width: 2020px;
+  width: 100%;
   box-sizing: border-box;
   padding: 0;
 }
