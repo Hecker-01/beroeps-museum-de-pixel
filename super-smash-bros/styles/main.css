@@ -4,14 +4,25 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
-body {
-  background-image: url("../assets/battlefield.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  margin: 0;
-}
+video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%; /* Ensures it covers the entire width */
+      min-height: 100%; /* Ensures it covers the entire height */
+      z-index: -1; /* Sends the video to the back, behind other content */
+    }
+
+    /* Optional: Add some content on top */
+    .content {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: Arial, sans-serif;
+    }
 
 
 li {
@@ -21,22 +32,26 @@ li {
 }
 .logo {
   display: block;
-  margin-left: 910px;
+  margin-left: 425px;
   margin-right: auto;
   margin-top: -100px;
-  width: 350px;
+  width: 400px;
 }
 header {
   width: 100vw;
+  position: relative;
+  top: -10px;
+left: -10px;
 }
 
 header {
+  position: s;
   background-color: #d81310;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 2px;
   flex-direction: row;
 }
 nav ul{
@@ -83,5 +98,9 @@ li a:hover {
 }
 
 .nintendo-logo{
- align-items: right;
+  position: absolute;
+  right: 10px; 
+  top: 25px;
+  transform: translateY(-40%);
+  width: 100px; 
 }
