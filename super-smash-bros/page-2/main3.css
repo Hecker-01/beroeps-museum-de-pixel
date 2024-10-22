@@ -77,10 +77,74 @@ body {
     width: 100px; 
   }
   #firelogo{
+    background-attachment: fixed;
     position: relative;
     margin: 0px;
-    top: -100px;
-    width: 450px; 
+    top: -10px;
+    width: 1500px; 
     z-index: -1;
-  
-  }
+    transform: translateX(-30%);
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .logo {
+      display: block;
+      margin-left: 0px;
+      margin-right: auto;
+      margin-top: -750px;
+      width: 400px;
+    }
+    .custom-text {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      margin-left: 40px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5);
+      }
+      .Vechters {
+        margin: 40px;
+        width: 800px;
+        height: 1000px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: relative;
+        top: -350px;
+        left: 390px;
+        float: center;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+      }
+      .text1{
+        position: relative;
+        top: 70px;
+      }
+      .text2{
+        position: relative;
+        top: 200px;
+      }
+      .fighters{
+        position: relative;
+        top: 150px;
+      }
+
+      .titel1{
+        position: relative;
+        top: 60px;
+      }
+
+      .titel2{
+        position: relative;
+        top: 200px;
+      }
+      .Battlefield{
+        position: relative;
+        top: 250px;
+      }
+
+      .mario{
+        position: relative;
+        top: -500px;
+        left: 70px;
+      }
