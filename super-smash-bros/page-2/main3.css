@@ -76,4 +76,11 @@ body {
     transform: translateY(-40%);
     width: 100px; 
   }
+  #firelogo{
+    position: relative;
+    margin: 0px;
+    top: -100px;
+    width: 450px; 
+    z-index: -1;
   
+  }
