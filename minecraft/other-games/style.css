@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   background-image: url("../assets/background.png");
   background-size: cover;
-  background-position: 0 10%;
+  background-position: 0 5%;
 }
 
 .content {
@@ -35,25 +39,26 @@ nav {
   text-align: center;
 }
 
-nav ul {
+nav .main-menu {
   list-style-type: none;
   padding: 0;
 }
 
-nav ul li {
+nav .main-menu li {
   display: inline-block;
   margin-right: 20px;
   margin-left: 20px;
 }
 
-nav ul li a {
+nav .main-menu li a {
   color: #81c784;
   text-decoration: none;
   font-size: 1rem;
   font-family: "MinecraftFive", sans-serif;
 }
 
-nav ul li a:hover {
+nav .main-menu li a:hover {
+  color: #aed581;
   text-decoration: underline;
 }
 
@@ -67,16 +72,16 @@ section {
 
 section h1 {
   font-family: "MinecraftTen", sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
-  color: #aed581;
+  color: #81c784;
 }
 
 section h2 {
   font-family: "MinecraftSeven", sans-serif;
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #aed581;
+  color: #81c784;
 }
 
 section p {
@@ -103,5 +108,59 @@ a {
 }
 
 a:hover {
+  color: #aed581;
+  text-decoration: underline;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+section img {
+  display: relative;
+  margin: 0;
+  width: 150px;
+  height: auto;
+}
+
+.info {
+  padding: 20px;
+  display: block;
+}
+
+.spacer {
+  margin-top: 30px;
+}
+
+nav .sub-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav .sub-menu li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+nav .sub-menu li a {
+  color: #81c784;
+  text-decoration: none;
+  font-size: 1.75rem;
+  font-family: "MinecraftSeven", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+nav .sub-menu li a img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+nav .sub-menu li a:hover {
+  color: #aed581;
   text-decoration: underline;
 }

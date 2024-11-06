@@ -22,9 +22,10 @@
         src="../assets/minecraft-logo.svg"
         alt="Minecraft Logo"
         style="max-height: 100px"
+        draggable="false"
       />
       <nav>
-        <ul>
+        <ul class="main-menu">
           <li>
             <a href="../../" draggable="false"
               ><i class="fa-solid fa-caret-left"></i> Terug naar start</a
@@ -33,11 +34,43 @@
           <li><a href="../" draggable="false">Minecraft</a></li>
           <li><a href="./../timeline" draggable="false">Tijdlijn</a></li>
           <li>
-            <a href="./../the-community" draggable="false">De Community</a>
+            <a
+              href="./../other-games"
+              draggable="false"
+              style="text-decoration: underline"
+              >Andere Minecraft games</a
+            >
+          </li>
+        </ul>
+        <div class="spacer" />
+        <ul class="sub-menu">
+          <li>
+            <a href="#minecraft" draggable="false"
+              ><img
+                src="../assets/minecraft_logo.png"
+                alt="Minecraft Logo"
+              />Minecraft</a
+            >
           </li>
           <li>
-            <a href="./../other-games" draggable="false"
-              >Andere Minecraft games</a
+            <a href="#dungeons" draggable="false"
+              ><img
+                src="../assets/dungeons_logo.png"
+                alt="Dungeons Logo"
+              />Dungeons</a
+            >
+          </li>
+          <li>
+            <a href="#legends" draggable="false"
+              ><img
+                src="../assets/legends_logo.png"
+                alt="Legends Logo"
+              />Legends</a
+            >
+          </li>
+          <li>
+            <a href="#earth" draggable="false"
+              ><img src="../assets/earth_logo.png" alt="Earth Logo" />Earth</a
             >
           </li>
         </ul>
@@ -45,14 +78,84 @@
     </header>
     <main>
       <div class="content">
-        <section>
-          <h1>Andere Games</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
-            alias, ratione mollitia libero nam saepe tempora eaque ab est sed
-            quas asperiores unde eos veniam porro cupiditate eveniet debitis
-            dignissimos!
-          </p>
+        <section id="minecraft">
+          <img src="../assets/minecraft_logo.png" alt="Minecraft Logo" />
+          <div class="info">
+            <h2>Minecraft</h2>
+            <p>
+              Minecraft is een sandbox-spel, oorspronkelijk uitgebracht in 2011
+              door Mojang. Het draait om creativiteit, verkenning en overleven
+              in een open wereld die volledig uit blokken bestaat. Spelers
+              kunnen grondstoffen verzamelen, bouwen, mijnen en vechten tegen
+              vijanden in verschillende biomen. Er zijn twee hoofdmodi:
+              Survival, waar spelers grondstoffen moeten verzamelen om te
+              overleven tegen monsters, en Creative, waarin onbeperkte
+              bouwmogelijkheden centraal staan. Minecraft biedt ook een
+              uitgebreide multiplayer, waar spelers samen kunnen werken of
+              strijden. Het iconische blokkerige ontwerp en de eindeloze
+              mogelijkheden hebben het tot een van de bestverkochte en meest
+              invloedrijke games aller tijden gemaakt.
+            </p>
+          </div>
+        </section>
+        <section id="dungeons">
+          <img src="../assets/dungeons_logo.png" alt="Dungeons Logo" />
+          <div class="info">
+            <h2>Minecraft Dungeons</h2>
+            <p>
+              Minecraft Dungeons is een actie-avonturenspel, uitgebracht in mei
+              2020. Het is een dungeon-crawler spin-off van Minecraft, waarin
+              spelers door verschillende kerkers vechten om de kwaadaardige
+              Arch-Illager te verslaan. In tegenstelling tot het sandbox-ontwerp
+              van de originele game, richt Minecraft Dungeons zich op lineaire
+              niveaus vol vijanden, vallen en schatten. Spelers kunnen hun
+              personage uitrusten met verschillende wapens, bepantsering en
+              artefacten, waarbij de nadruk ligt op gevechten en verkenning. Het
+              spel heeft zowel singleplayer- als coöperatieve multiplayer-modi,
+              waarbij teams van maximaal vier spelers kunnen samenwerken om door
+              de kerkers te navigeren en vijanden te verslaan. Het behoudt de
+              herkenbare Minecraft-stijl, maar met een sterkere focus op actie
+              en avontuur.
+            </p>
+          </div>
+        </section>
+        <section id="legends">
+          <img src="../assets/legends_logo.png" alt="Legends Logo" />
+          <div class="info">
+            <h2>Minecraft Legends</h2>
+            <p>
+              Minecraft Legends is een actie-strategie spin-off van Minecraft,
+              uitgebracht in april 2023. Het speelt zich af in de Overworld,
+              waar spelers de wereld moeten verdedigen tegen een invasie van
+              Piglins uit de Nether. Als held verenig je verschillende wezens,
+              zoals dorpelingen en golems, om een leger te vormen en de Piglins
+              te verslaan. In tegenstelling tot het originele Minecraft, ligt de
+              nadruk in Minecraft Legends op real-time strategie. Spelers
+              verzamelen grondstoffen, bouwen verdedigingswerken en sturen
+              troepen aan in gevechten. De game biedt ook verkenning,
+              coöperatieve multiplayer en competitieve modi, allemaal in de
+              kenmerkende blokstijl van Minecraft.
+            </p>
+          </div>
+        </section>
+        <section id="earth">
+          <img src="../assets/earth_logo.png" alt="Earth Logo" />
+          <div class="info">
+            <h2>Minecraft Earth</h2>
+            <p>
+              Minecraft Earth was een augmented reality (AR) mobiele game,
+              uitgebracht in 2019. De game bracht de bouw- en
+              verkenningselementen van Minecraft naar de echte wereld, waarbij
+              spelers met hun smartphone virtuele structuren konden bouwen en
+              ontdekken via AR. Spelers verzamelden middelen door rond te lopen
+              in hun omgeving, bouwden levensgrote creaties op AR-gebouwen, en
+              werkten samen met anderen aan projecten. Minecraft Earth bood ook
+              avonturen waarin spelers tegen mobs konden vechten en beloningen
+              konden verdienen. Ondanks zijn innovatieve concept, werd de game
+              in juni 2021 beëindigd vanwege de impact van de COVID-19-pandemie
+              op het buitenspelen.
+            </p>
+          </div>
         </section>
       </div>
     </main>

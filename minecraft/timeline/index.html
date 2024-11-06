@@ -22,6 +22,7 @@
         src="../assets/minecraft-logo.svg"
         alt="Minecraft Logo"
         style="max-height: 100px"
+        draggable="false"
       />
       <nav>
         <ul>
@@ -31,9 +32,13 @@
             >
           </li>
           <li><a href="../" draggable="false">Minecraft</a></li>
-          <li><a href="./../timeline" draggable="false">Tijdlijn</a></li>
           <li>
-            <a href="./../the-community" draggable="false">De Community</a>
+            <a
+              href="./../timeline"
+              draggable="false"
+              style="text-decoration: underline"
+              >Tijdlijn</a
+            >
           </li>
           <li>
             <a href="./../other-games" draggable="false"
@@ -47,12 +52,12 @@
       <div class="content">
         <section>
           <h1>Tijdlijn</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ipsam
-            enim accusantium. Officia, nam vitae harum inventore blanditiis
-            temporibus soluta atque commodi, eos architecto nisi quo,
-            necessitatibus sed aperiam porro.
-          </p>
+          <div class="timeline">
+            <div class="timeline-line"></div>
+            <div class="timeline-items">
+              <script src="./timeline-items.js"></script>
+            </div>
+          </div>
         </section>
       </div>
     </main>

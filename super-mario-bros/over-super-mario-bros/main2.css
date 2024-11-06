@@ -14,14 +14,13 @@ body {
   border-radius: 10px;
   border: solid 5px black;
   margin-bottom: 10px;
-
 }
 
 .informatie {
   margin: 170px;
   width: 300px;
   padding: 10px;
-  background-color: rgb(68, 68, 206);
+  background-color: rgb(117, 159, 232);
   border-radius: 10px;
   border: solid 5px rgb(0, 0, 0);
   position: relative;
@@ -32,7 +31,7 @@ body {
   margin: 170px;
   width: 300px;
   padding: 10px;
-  background-color: rgb(68, 68, 206);
+  background-color: rgb(117, 159, 232);
   border-radius: 10px;
   border: solid 5px rgb(0, 0, 0);
   position: relative;
@@ -42,18 +41,15 @@ body {
   margin: 170px;
   width: 300px;
   padding: 10px;
-  background-color: rgb(68, 68, 206);
+  background-color: rgb(117, 159, 232);
   border-radius: 10px;
   border: solid 5px rgb(0, 0, 0);
   position: relative;
   float: left;
 }
 
-
 img:hover {
-
   cursor: pointer;
-
 }
 
 i {
@@ -61,4 +57,7 @@ i {
   left: 10px;
   font-size: xx-large;
   position: absolute;
+}
+body {
+  font-family: "", sans-serif;
 }
